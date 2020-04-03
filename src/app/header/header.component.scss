@@ -1,0 +1,64 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+ 
+
+
+.title{
+    font-family: 'Amatic SC', cursive;
+    // font-family: 'Caveat', cursive;
+
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+    margin-left:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    // align-items: center;
+    
+}
+.navigation-menu{
+    // font-family: 'Caveat', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color:whitesmoke;
+    margin-right:50px;
+    
+}
+.navigation-list{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+   
+    
+    
+
+}
+.navigation-list-item{
+    padding-left:30px;
+    padding-right:30px;
+
+}
+
+#a, #c, #e{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation-name: dash;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-duration: 8s;
+  }
+
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
