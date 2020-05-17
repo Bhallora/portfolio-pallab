@@ -1,0 +1,23 @@
+ .home-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-page{
+    display:flex;
+    flex-direction:column;
+    
+
+  }
+  #intro-page{
+    align-self: center;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-top:70px;
+    width:100%
+  }
+  #about-page{
+    align-self: center;
+
+  }

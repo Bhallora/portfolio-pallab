@@ -1,0 +1,42 @@
+.about-exp{
+    display:flex;
+    flex-direction:column;
+    // align-content: center;
+    // justify-content:space-between;
+    align-items: center;
+}
+
+#about-exp-text{
+    font-family: 'Roboto', sans-serif;
+    // font-family: "Amatic SC", cursive;
+    color: rgb(100, 205, 247);
+    font-weight: 500;
+    font-size: 36px;
+    justify-self: center;
+    // justify-content: center;
+    // background-color:white;
+    // align-content: center;
+
+}
+.about-exp-img{
+    // justify-self: center;
+    // justify-items: center;
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+
+    // justify-content: space-evenly;
+    // justify-items: center;
+}
+
+#image1,#image2,#image3,#image4{
+    height:80px;
+    padding:40px;
+    width: 100px;
+    
+    
+}
+#order,#image4{
+    order:1;
+    
+}
