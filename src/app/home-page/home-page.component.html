@@ -1,7 +1,9 @@
 <div class="home-page">
 <div class="home-page-header">
-    <app-header-title></app-header-title>
     <app-header></app-header>
 </div>
-<div id="intro-page"><router-outlet></router-outlet></div>
+<div class="intro-page"><router-outlet ></router-outlet>
+</div>
+
+<div id='homeIcon' (click)='loadHome()' *ngIf="isRoute() != '/'"><img id='homeIconImage' src='../../assets/home.png' alt="Go to Home"></div>
 </div>

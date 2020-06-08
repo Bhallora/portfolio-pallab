@@ -1,23 +1,40 @@
- .home-page-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .home-page{
-    display:flex;
-    flex-direction:column;
-    
+ .home-page-header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
 
-  }
-  #intro-page{
-    align-self: center;
-    padding-top:100px;
-    padding-bottom:100px;
-    margin-top:70px;
-    width:100%
-  }
-  #about-page{
-    align-self: center;
+ .home-page {
+   display: flex;
+   flex-direction: column;
+   max-width:100vw;
+   overflow-x: hidden;
 
-  }
+
+ }
+
+ .intro-page {
+   align-self: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   max-width:100%
+  
+ }
+
+ #about-page {
+   align-self: center;
+
+ }
+
+ #homeIcon {
+   position: fixed;
+   right: 35px;
+   bottom: 35px;
+   cursor: pointer;
+ }
+
+ #homeIconImage {
+   height: 35px;
+   width: 35px;
+ }

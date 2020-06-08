@@ -1,33 +1,28 @@
 .header {
+  width:100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+
 }
 a{
   color:white;
   text-decoration: none;
 }
+.myActiveClass{
+  color:rgb(100, 205, 247);
+}
 
-// .title {
-//   font-family: "Amatic SC", cursive;
-//   // font-family: 'Caveat', cursive;
 
-//   color: white;
-//   font-weight: bold;
-//   font-size: 50px;
-//   margin-left: 50px;
-//   display: flex;
-//   flex-direction: row;
-//   // justify-content: center;
-//   // align-items: center;
-// }
 .navigation-menu {
   // font-family: 'Caveat', cursive;
   font-family: "Amatic SC", cursive;
   font-size: 30px;
   color: whitesmoke;
-  margin-right: 50px;
+  right: 40px;
+  position:absolute;
 }
 .navigation-list {
   display: flex;
@@ -39,42 +34,119 @@ a{
   padding-right: 30px;
 }
 
-// #a,
-// #c,
-// #e {
-//   stroke-dasharray: 1000;
-//   stroke-dashoffset: 1000;
-//   animation-name: dash;
-//   animation-timing-function: linear;
-//   animation-fill-mode: forwards;
-//   animation-play-state: running;
-//   animation-iteration-count: 4;
-//   animation-duration: 8s;
-// }
-
-// @keyframes dash {
-//   to {
-//     stroke-dashoffset: 0;
-//   }
-// }
 
 
+.title {
+  font-family: "Amatic SC", cursive;
+  // font-family: 'Caveat', cursive;
 
-// @media screen and (max-width: 768px) and (min-width:321px){
-//   .title {
-//     font-size: 20px;
-//   }
-//   .navigation-menu {
-//     font-size: 15px;
-//   }
-// }
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  left: 40px;
+  
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-// /* Mobile */
-// @media screen and (max-width: 320px) {
-//   .title {
-//     font-size: 10px;
-//   }
-//   .navigation-menu {
-//     font-size: 10px;
-//   }
-// }
+}
+.myActiveClass{
+color:rgb(100, 205, 247);
+}
+.svg-tag-lines
+{
+fill-opacity:0;
+ stroke: rgb(100, 205, 247);
+  stroke-width: 3px;
+stroke-dasharray: 1000;
+stroke-dashoffset: 1000;
+animation-name: dash;
+animation-timing-function: ease-in-out;
+animation-fill-mode: none;
+animation-play-state: running;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#tag-open{
+  width: 37.62px;
+  height: 60.1px;
+
+}
+#tag-closed{
+  width:61.3px;
+  height: 60.1px;
+}
+
+@media only screen and (max-width: 1024px){
+    #tag-open{
+      width:17.42px;
+      height:30.1px;
+    }
+    #tag-closed{
+      width:31.3px;
+      height:30.1px;
+    }
+    .title{
+      font-size: 30px;
+    }
+   .navigation-menu{
+     font-size:20px;
+   }
+   .navigation-list-item {
+    padding-left:15px;
+    padding-right:15px;
+  }
+  }
+
+@media only screen and (max-width: 768px){
+  #tag-open{
+    width:15.42px;
+    height:27.1px;
+  }
+  #tag-closed{
+    width:28.3px;
+    height:27.1px;
+  }
+  .title{
+    font-size: 25px;
+  }
+ .navigation-menu{
+   font-size:13px;
+ }
+ .navigation-list {
+  display: flex;
+  flex-direction: column;
+}
+ .navigation-list-item {
+  margin-top:11px;
+}
+}
+@media only screen and (max-width: 580px){
+  #tag-open{
+    width:10.42px;
+    height:30.1px;
+  }
+  #tag-closed{
+    width:21.3px;
+    height:30.1px;
+  }
+  .title{
+    font-size: 20px;
+  }
+ .navigation-menu{
+   font-size:10px;
+ }
+ .navigation-list {
+  display: flex;
+  flex-direction: column;
+}
+.navigation-list-item {
+  margin-top: 10px;
+}
+}
