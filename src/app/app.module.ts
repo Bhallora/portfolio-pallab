@@ -11,6 +11,7 @@ import { WelcomeIntroComponent } from './welcome-intro/welcome-intro.component';
 import { AboutExperienceComponent } from './about-experience/about-experience.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { RealSkillPageComponent } from './real-skill-page/real-skill-page.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import {MatCardModule} from '@angular/material/card';
     HeaderTitleComponent,
     WelcomeIntroComponent,
     AboutExperienceComponent,
+    RealSkillPageComponent,
 
   ],
   imports: [
