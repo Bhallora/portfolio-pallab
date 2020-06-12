@@ -229,7 +229,7 @@ mat-card:hover {
         max-width:250px;
         font-size: 12px;
         line-height: 14px;
-        border-radius:10px 10px 10px 10px;
+        border-radius:0px 0px 10px 10px;
         border-left-width: 2px;
         border-left-color: rgb(3, 157, 218);
         border-right-width:2px;
@@ -237,7 +237,8 @@ mat-card:hover {
     }
     .img-wrapper{
         width: 280px;
-	   height: 284px;
+       height: 284px;
+       border-radius: 5px 5px 0px 0px;
 
     }
     .image-content-area{
