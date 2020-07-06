@@ -5,13 +5,14 @@ import {AboutExperienceComponent} from './about-experience/about-experience.comp
 import {RealSkillPageComponent} from './real-skill-page/real-skill-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { TechSkillPageComponent } from './tech-skill-page/tech-skill-page.component';
+import { SkillCytographComponent } from './skill-cytograph/skill-cytograph.component';
 
 
 const routes: Routes = [
 { path: '', component: WelcomeIntroComponent  },
 { path: 'about', component: AboutExperienceComponent},
-{ path: 'real-skill', component: RealSkillPageComponent},
-{ path: 'tech-skill', component: TechSkillPageComponent},
+{ path: 'real-skill', component: SkillCytographComponent},
+{ path: 'tech-skill', component: TechSkillPageComponent },
 { path: 'contact', component: ContactPageComponent}
 
 ];

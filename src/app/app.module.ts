@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { RealSkillPageComponent } from './real-skill-page/real-skill-page.component';
 import { TechSkillPageComponent } from './tech-skill-page/tech-skill-page.component';
+import { SkillCytographComponent } from './skill-cytograph/skill-cytograph.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { TechSkillPageComponent } from './tech-skill-page/tech-skill-page.compon
     AboutExperienceComponent,
     RealSkillPageComponent,
     TechSkillPageComponent,
+    SkillCytographComponent,
 
   ],
   imports: [
