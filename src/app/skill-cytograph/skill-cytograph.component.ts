@@ -30,6 +30,12 @@ export class SkillCytographComponent implements OnInit, OnDestroy {
       style: STYLE,
       layout: LAYOUT,
     });
+    this.cy.on('mouseover', 'node', function(e){
+    $('#cy').css('cursor', 'pointer');
+    });
+    this.cy.on('mouseout', 'node', function(e){
+    $('#cy').css('cursor', 'default');
+});
   }
 
   private getElements() {
