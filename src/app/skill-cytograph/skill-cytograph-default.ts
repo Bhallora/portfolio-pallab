@@ -18,8 +18,7 @@ export const STYLE = [{
     'text-margin-y': -10,
     'font-size': 40,
     'font-family': '"Amatic SC", cursive',
-    'font-weight': 700,
-    'cursor': 'pointer'
+    'font-weight': 700
   }
 },
 {
