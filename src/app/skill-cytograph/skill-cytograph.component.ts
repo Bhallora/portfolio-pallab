@@ -36,11 +36,11 @@ export class SkillCytographComponent implements OnInit, OnDestroy {
   }
 }
 
-<!-- this.cy.on('mouseout', (event) => {
+/* this.cy.on('mouseout', (event) => {
   if(event.cy.container()) {
     event.cy.container().style.cursor = 'default';
   }
-} -->
+} */
   }
 
   private getElements() {
