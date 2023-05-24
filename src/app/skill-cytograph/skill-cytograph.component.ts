@@ -41,7 +41,7 @@ export class SkillCytographComponent implements OnInit, OnDestroy {
     event.cy.container().style.cursor = 'default';
   }
 } */
-  },
+ // }
 
   private getElements() {
     let nodes: NodeDefinition[] = [];
